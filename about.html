@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swagata-Chakraborty-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"/>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Poppins',sans-serif;
+      }
+      nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        background-color: rgb(18, 18, 62) ;
+        border: 2px ;
+        border-color: aqua;
+        border-radius: 10px;
+      }
+      nav ul{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+      }
+      nav ul li{
+        list-style: none;
+        margin: 0 23px;
+      }
+      
+      nav ul li a{
+        text-decoration:  none;
+        color :white
+      }
+      .left{
+        font-size: 1.5rem;
+      }
+      
+      .right{
+        font-size: 0.85rem;
+      }
+      .First
+      {
+        display:flex;
+        justify-content: space-around;
+        margin: 20px 23px;
+      }
+      .First > div{
+        width: 30%;
+      }
+      .LeftSec{
+        align-items: center;
+        margin:20px 0;
+        font-size: larger;
+        width: max-content;
+      }
+      
+      .RightSec{
+      }
+      .orange{
+    color: orangered;
+      }
+      
+      .borange{
+    color: white;
+    background-color: orangered;
+    padding: 5px 14px;
+    margin-bottom: 2px;
+    border:2px orangered;
+    border-radius: 10px;
+    transition : all .3s ease-in-out;
+}
+    .borange:hover{
+
+    border:none;
+  color:rgb(196, 189, 189);
+  background-color:#b23301;
+  font-size: 0.95rem;
+  }
+  
+  .borange{
+    color: white;
+    background-color: orangered;
+    padding: 5px 14px;
+    margin-bottom: 2px;
+    border:2px orangered;
+    border-radius: 10px;
+    transition : all .3s ease-in-out;
+}
+    .borange:hover{
+
+    border:none;
+  color:rgb(196, 189, 189);
+  background-color:#b23301;
+  font-size: 0.95rem;
+  }
+  #element{
+    
+    color: orangered;
+    font-size: 2rem;
+  }
+  #yo{
+    
+    color: orangered;
+    font-size: 2rem;
+  }
+  #yo1{
+    
+    color: orangered;
+    font-size: 2rem;
+  }
+  #yo2{
+    
+    color: orangered;
+    font-size: 2rem;
+  }
+
+  .Second
+      {
+        display:flex;
+        justify-content: space-around;
+        margin: 20px 20px;
+      }
+      .Second> div{
+        width: 100%;
+      }
+      .LefSec{
+        align-items: center;
+        margin:80px 110px;
+        font-size: larger;
+        width: max-content;
+      }
+      
+      .RighSec{
+        margin:80px 0;
+        font-size: larger;
+        
+      }
+      .text-center {
+  text-align: center;
+}
+  main hr{
+    border: 0;
+    background:orangered;
+    height: 1.2px;
+    margin: 25px 120px;
+  }
+  .white{
+    color: white;
+    background-color: rgb(0, 0, 33);
+    padding: 12px 14px;
+    margin-bottom: 2px;
+    border:2px solid white;
+    border-radius: 10px;
+    transition : all .3s ease-in-out;
+}
+    .white:hover{
+
+    border:none;
+  color:rgb(196, 189, 189);
+  background-color: rgb(0, 0, 33);
+  font-size: 0.95rem;
+  border:2px solid rgb(196, 189, 189);;
+
+  }
+  
+  @media only  screen and (max-width: 400px)
+  {
+    nav
+    {
+        flex-direction:column;
+        width: 880px;
+        height: 120px;
+    }
+    .First{
+      flex-direction: column;   
+      
+      width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      .First > div{
+        width: 70%;
+        justify-content: center;
+      }
+      body {
+        min-width: fit-content;
+      }
+      .Second{flex-direction: column;   
+      
+      width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+;
+      }
+      .footer
+      {
+        margin-left:-185px
+      }
+      .Second > div{
+        width: 70%;
+        justify-content: center;
+      }
+   }
+   footer{
+    background-color:#05050c7a;
+   }
+   .footer
+   {
+    display: flex;
+    padding: 23px 122px;
+   }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="left" style="margin-top: 15px;">Swagata's Portfolio</div>
+      <div class="right">
+        <ul>
+            <li>
+                <a href="index.html"><button class ="borange"> Home</button></a>
+            </li>
+            <li><a href="about.html"><button class ="borange">About</button></a></li>
+            <li><a href="Services.html"><button class ="borange">Services</button></a></li>
+            <li><a href="Projects.html"><button class ="borange">Projects</button></a></li>
+            <li><a href="Contacts.html"><button class ="borange">Contact me</button></a></li>
+        </ul>                                           
+      </div>
+    </nav>
+    <main>
+        <section class ="First">
+            <div class ="LeftSec">
+                <div style="margin-bottom: 10px;">
+                    <span id="element"></span>   
+                </div>
+                I am Swagata Chakraborty, currently pursuing a B.Tech degree in Information Technology at Kalinga Institute of Industrial Technology. Alongside my studies, I have a keen interest in web development and graphic design, aspiring to become a full-stack developer and graphic designer.
+
+In addition to my academic pursuits, I enjoy playing football and table tennis as hobbies, fostering teamwork, perseverance, and discipline.
+            </div>
+            
+            <div class ="RightSec">
+                <img src="sw.jpg"style="width:50%; margin:20px 80px; border-radius :30px">
+                <div>
+                    <div style="margin:10px 0;">
+                        <span id="yo"></span>   
+                    </div>
+                    <div style="font-size:medium ;margin-bottom: 20px;">B.Tech in Information Technology
+                        <div style="font-size:x-small ;color:orangered ;margin-bottom: 10px;">KALINGA INSTITUTE OF INDUSTRIAL TECHNOLOGY <br>2020-2024</div>
+                        <div style="font-size: small;">
+                            <span style="margin-right:200px">CGPA</span>
+                            <span style="color:orangered">8.37</span>
+                        </div>                                              
+                    </div>   
+                    <div>
+                        <div style="margin:10px 0;">
+                            <span id="yo"></span>   
+                        </div>
+                        <div style="font-size:medium ;margin-bottom: 20px;">XII ISC
+                            <div style="font-size:x-small ;color:orangered ;margin-bottom: 10px;">Don Bosco School Park Circus<br>
+                                2020</div>
+                            <div style="font-size: small;">
+                                <span style="margin-right:150px">PERCENTAGE</span>
+                                <span style="color:orangered">83.75%</span>
+                            </div>                                              
+                        </div>      
+                        <div style="font-size:medium ;margin-bottom: 20px;">X ICSE
+                            <div style="font-size:x-small ;color:orangered ;margin-bottom: 10px;">Don Bosco School Park Circus<br>
+                                2020</div>
+                            <div style="font-size: small;">
+                                <span style="margin-right:150px">PERCENTAGE</span>
+                                <span style="color:orangered">89.4%</span>
+                            </div>                                              
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="Second" >
+            <div class="LefSec ">
+               <div> <span id="yo1"></span> </div>
+               <div style="font-size:medium">
+               C <br>C++<br>JAVA<br>PYTHON<br>SHELL SCRIPT<br>SQL<br>AUTOCAD<br>HTML<br>CSS<br>REACT JS</div>
+            </div>
+            <div class="RighSec">
+                
+               <div> <span id="yo2"></span>   </div>
+               <div style="font-size:medium">
+                CREATIVE SPIRIT<br> RELIABLE AND PROFESSIONAL<br>ORGANIZED<br>TIME MANAGEMENT<br>TEAM PLAYER<br>FAST LEARNER<br>MOTIVATED
+            </div>
+            </div>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <div class="footer">
+            <div  class="text-center" style="margin-left: 380px ;font-size: x-small; color: gray;">
+                Copyright &copy; Swagta's portforlia | All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['About Me'],
+          typeSpeed: 50,
+        });
+        var typed = new Typed('#yo', {
+          strings: ['Education'],
+          typeSpeed: 50,
+        });
+        var typed = new Typed('#yo1', {
+          strings: ['Skills'],
+          typeSpeed: 50,
+        });var typed = new Typed('#yo2', {
+          strings: ['Interpersonal Skills'],
+          typeSpeed: 50,
+        });
+      </script>
+      </script>
+  </body>
+</html>

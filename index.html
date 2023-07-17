@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swagata-Chakraborty-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"/>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Poppins',sans-serif;
+      }
+      nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        background-color: rgb(18, 18, 62) ;
+        border: 2px ;
+        border-color: aqua;
+        border-radius: 10px;
+      }
+      nav ul{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+      }
+      nav ul li{
+        list-style: none;
+        margin: 0 23px;
+      }
+      
+      nav ul li a{
+        text-decoration:  none;
+        color :white
+      }
+      .left{
+        font-size: 1.5rem;
+      }
+      
+      .right{
+        font-size: 0.85rem;
+      }
+      .First
+      {
+        display:flex;
+        justify-content: space-around;
+        margin: 20px 23px;
+      }
+      .First > div{
+        width: 30%;
+      }
+      .LeftSec{
+        align-items: center;
+        margin:80px 0;
+        font-size: 2rem;
+      }
+      
+      .RightSec{
+      }
+      .orange{
+    color: orangered;
+      }
+      
+      .borange{
+    color: white;
+    background-color: orangered;
+    padding: 5px 14px;
+    margin-bottom: 2px;
+    border:2px orangered;
+    border-radius: 10px;
+    transition : all .3s ease-in-out;
+}
+    .borange:hover{
+
+    border:none;
+  color:rgb(196, 189, 189);
+  background-color:#b23301;
+  font-size: 0.95rem;
+  }
+  
+  .borange{
+    color: white;
+    background-color: orangered;
+    padding: 5px 14px;
+    margin-bottom: 2px;
+    border:2px orangered;
+    border-radius: 10px;
+    transition : all .3s ease-in-out;
+}
+    .borange:hover{
+
+    border:none;
+  color:rgb(196, 189, 189);
+  background-color:#b23301;
+  font-size: 0.95rem;
+  }
+  #element{
+    
+    color: orangered;
+  }
+  .Second{
+    max-width: 80vw;
+    margin:auto;
+  }
+  main hr{
+    border: 0;
+    background:orangered;
+    height: 1.2px;
+    margin: 20px 120px;
+  }
+  .white{
+    color: white;
+    background-color: rgb(0, 0, 33);
+    padding: 12px 14px;
+    margin-bottom: 2px;
+    border:2px solid white;
+    border-radius: 10px;
+    transition : all .3s ease-in-out;
+}
+    .white:hover{
+
+    border:none;
+  color:rgb(196, 189, 189);
+  background-color: rgb(0, 0, 33);
+  font-size: 0.95rem;
+  border:2px solid rgb(196, 189, 189);;
+
+  }
+  @media screen and (max-width: 400px)
+  {
+    nav
+    {
+        flex-direction:column;
+        width: 880px;
+        height: 120px;
+    }
+    .First{
+      flex-direction: column-reverse;   
+      
+      width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      .First > div{
+        width: 70%;
+        justify-content: center;
+      }
+      body {
+        min-width: fit-content;
+      }
+      .Second{min-width:50rem;
+      }
+      
+      .footer
+      {
+        margin-left:-185px
+      }
+   }
+   footer{
+    background-color:#05050c7a;
+   }
+   .footer
+   {
+    display: flex;
+    padding: 23px 122px;
+   }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="left" style="margin-top: 15px;">Swagata's Portfolio</div>
+      <div class="right">
+        <ul>
+            <li>
+                <a href="index.html"><button class ="borange"> Home</button></a>
+            </li>
+            <li><a href="about.html"><button class ="borange">About</button></a></li>
+            <li><a href="Services.html"><button class ="borange">Services</button></a></li>
+            <li><a href="Projects.html"><button class ="borange">Projects</button></a></li>
+            <li><a href="Contacts.html"><button class ="borange">Contact me</button></a></li>
+        </ul>                                           
+      </div>
+    </nav>
+    <main>
+        <section class ="First">
+            <div class ="LeftSec">
+              <div>Hi , My name is<span class ="orange"> Swagata Chakraborty</span> </div>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div>
+                <a href="SWAGATA CHAKRABORTY.pdf"><button class="white">Download Resume</button></a>
+                <a href ="https://github.com/dron7777"><button class="borange " style=" margin :15px 0;padding :13px" >Visit Github</button></a>
+                </div>
+            </div>
+            
+            <div class ="RightSec">
+                <img src="Untitled-design-50.png"style="width:80%; margin:20px 80px">
+            </div>
+        </section>
+        <hr>
+        <section class="Second" >
+            <h1 style="margin:10px 0">Work Experiences</h1>
+            <div style="margin: 20px 20px;">
+                <p>During my tenure as an intern at Highradius, I had the privilege of being part of the esteemed 'Highway to Highradius' Program. This invaluable experience not only deepened my understanding of the corporate world but also allowed me to contribute as a Developer within the organization. One of my notable achievements during this internship was the creation of the AI Enabled Fintech B2B Invoice Management Application.</p>
+
+               <p style="margin-top:10px;"> Working on this project exposed me to the intricacies of developing cutting-edge solutions in the financial technology sector. I had the opportunity to apply my skills and knowledge in building an application that leveraged artificial intelligence to streamline and enhance the management of B2B invoices. This experience equipped me with practical insights into the development lifecycle, collaboration with cross-functional teams, and the importance of aligning technology with business goals.</p>
+                
+                <p style="margin-top:10px;">Moreover, being immersed in Highradius's dynamic work environment exposed me to various aspects of the company's operations. I gained firsthand exposure to how a successful organization like Highradius functions, including its strategic decision-making processes, innovative approaches to problem-solving, and the emphasis on delivering exceptional customer experiences.</p>
+                
+                <p style="margin-top:10px;">Overall, this internship not only provided me with a solid foundation in software development but also offered me a unique perspective on navigating the corporate landscape. The 'Highway to Highradius' Program was an instrumental stepping stone in my professional journey, fostering personal growth and shaping my career aspirations in the field of fintech and technology-driven solutions.</p>
+                
+                
+                
+                                
+            </div>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <div class="footer">
+            <div  class="text-center" style=" margin-left: 380px ;font-size: x-small; color: gray;">
+                Copyright &copy; Swagta's portforlia | All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphic Designer','Full Stack Developer','Game Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+  </body>
+</html>

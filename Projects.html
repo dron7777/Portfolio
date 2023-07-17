@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swagata-Chakraborty-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"/>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Poppins',sans-serif;
+      }
+      nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        background-color: rgb(18, 18, 62) ;
+        border: 2px ;
+        border-color: aqua;
+        border-radius: 10px;
+      }
+      nav ul{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+      }
+      nav ul li{
+        list-style: none;
+        margin: 0 23px;
+      }
+      
+      nav ul li a{
+        text-decoration:  none;
+        color :white
+      }
+      .left{
+        font-size: 1.5rem;
+      }
+      
+      .right{
+        font-size: 0.85rem;
+      }
+      .First
+      {
+        display:flex;
+        justify-content: space-around;
+        margin: 20px 23px;
+      }
+      .First > div{
+        width: 60%;
+      }
+      .LeftSec{
+        align-items: center;
+        margin:80px 0;
+        font-size: 2rem;
+      }
+      
+      .RightSec{
+      }
+      .orange{
+    color: orangered;
+      }
+      
+      .borange{
+    color: white;
+    background-color: orangered;
+    padding: 5px 14px;
+    margin-bottom: 2px;
+    border:2px orangered;
+    border-radius: 10px;
+    transition : all .3s ease-in-out;
+}
+    .borange:hover{
+
+    border:none;
+  color:rgb(196, 189, 189);
+  background-color:#b23301;
+  font-size: 0.95rem;
+  }
+  
+  .borange{
+    color: white;
+    background-color: orangered;
+    padding: 5px 14px;
+    margin-bottom: 2px;
+    border:2px orangered;
+    border-radius: 10px;
+    transition : all .3s ease-in-out;
+}
+    .borange:hover{
+
+    border:none;
+  color:rgb(196, 189, 189);
+  background-color:#b23301;
+  font-size: 0.95rem;
+  }
+  #element{
+    
+    color: orangered;
+  }
+  .Second{
+    max-width: 80vw;
+    margin:auto;
+  }
+  main hr{
+    border: 0;
+    background:orangered;
+    height: 1.2px;
+    margin: 20px 120px;
+  }
+  .white{
+    color: white;
+    background-color: rgb(0, 0, 33);
+    padding: 12px 14px;
+    margin-bottom: 2px;
+    border:2px solid white;
+    border-radius: 10px;
+    transition : all .3s ease-in-out;
+}
+    .white:hover{
+
+    border:none;
+  color:rgb(196, 189, 189);
+  background-color: rgb(0, 0, 33);
+  font-size: 0.95rem;
+  border:2px solid rgb(196, 189, 189);;
+
+  }
+  @media screen and (max-width: 400px)
+  {
+    nav
+    {
+        flex-direction:column;
+        
+        height: 120px;
+    }
+    .First{
+      flex-direction: column-reverse;   
+      
+      width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      .First > div{
+        width: 70%;
+        justify-content: center;
+      }
+      body {
+        min-width: fit-content;
+      }
+      .Second{min-width:50rem;
+      }
+      
+      .footer
+      {
+        margin-left:-185px
+      }
+   }
+   footer{
+    background-color:#05050c7a;
+   }
+   .footer
+   {
+    display: flex;
+    padding: 23px 122px;
+   }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="left" style="margin-top: 15px;">Swagata's Portfolio</div>
+      <div class="right">
+        <ul>
+            <li>
+                <a href="index.html"><button class ="borange"> Home</button></a>
+            </li>
+            <li><a href="about.html"><button class ="borange">About</button></a></li>
+            <li><a href="Services.html"><button class ="borange">Services</button></a></li>
+            <li><a href="Projects.html"><button class ="borange">Projects</button></a></li>
+            <li><a href="Contacts.html"><button class ="borange">Contact me</button></a></li>
+        </ul>                                           
+      </div>
+    </nav> 
+
+    <main>
+        <section class ="First">
+            <div class ="LeftSec">
+            <div><span style="color:orangered;">
+                Space Invader
+            </span><br>
+            <span style="font-size:medium; display :flex">
+                Space Invader is an engaging arcade game created using Pygame. Players take control of a space ship and must fend off waves of descending aliens. The objective is to survive by skillfully maneuvering the ship to avoid alien crashes while blasting them out of the sky. The game features smooth controls, a scoring system to track progress, and occasional power-ups to enhance gameplay. With its classic arcade style and addictive gameplay, Space Invader offers players an immersive experience as they test their reflexes and strategy to achieve the highest score and survive the relentless alien invasion.
+            </span>
+            <a href="https://github.com/dron7777/Space_invader_game"><button class="white" style="margin-top:25px ;">Visit Github</button></a>
+        </div>
+            </div>
+        </section>
+        <hr>
+        <section class ="First">
+            <div class ="LeftSec">
+            <div><span style="color:orangered;">
+                Monty Hall Game
+            </span><br>
+            <span style="font-size:medium; display :flex">
+                
+
+Embark on an immersive journey with the Monty Hall Game, meticulously crafted using Pygame to deliver a professional and engaging experience. Prepare to unravel the intriguing dynamics of probability and strategic decision-making.
+
+Within this interactive game, you are presented with a choice among 1 to 6 doors, concealing hidden surprises. As doors swing open, revealing goats behind all but two, the tension rises. <br>The remaining doors hold a grand prize of a luxurious car and another lurking goat.
+
+Your objective is to carefully select the door you believe conceals the coveted car. However, a pivotal moment arises, offering you the opportunity to stick with your original choice or switch doors, impacting the odds of success.
+
+With bated breath, witness the final revelation unfold, exposing whether you triumphantly claim the car or are met with the whimsical face of a goat.<br>
+
+Track your progress on a meticulously designed scoreboard, providing a comprehensive overview of your wins and losses, allowing you to analyze your performance and strive for greatness in each subsequent attempt.
+
+Experience the Monty Hall Game, enveloped in sleek visuals and intuitive gameplay, as you unravel the complexities of probability, sharpen your decision-making skills, and chase the thrill of emerging victorious.            </span>
+            <a href="https://github.com/dron7777/Monty-Hall"><button class="white" style="margin-top:25px ;">Visit Github</button></a>
+        </div>
+            </div>
+        </section>
+        <hr>
+        
+        <section class ="First">
+            <div class ="LeftSec">
+            <div><span style="color:orangered;">
+                AI-Enabled FinTech B2B Invoice Management Application
+            </span><br>
+            <span style="font-size:medium; display :flex">
+                A comprehensive project that encompassed the development of a Machine Learning model for order amount prediction and a Full-stack Invoice Management Application. This project was undertaken as a part of the internship program by Highradius, specifically the Highway to Highradius program, which spanned a period of 5 weeks.<br>
+                To tackle the order amount prediction aspect, we leveraged the power of Python, implementing a sophisticated Machine Learning model. By analyzing past orders and customer behavior patterns, the model provided accurate predictions of future order amounts, aiding businesses in making informed decisions and optimizing their operations.<br>
+                Simultaneously, we embarked on developing a Full-stack Invoice Management Application using an array of cutting-edge technologies. React JS was employed for the front-end, facilitating a responsive and intuitive user interface. On the back-end Java, with JDBC and Servlets, seamlessly handled data management and database connectivity.
+                Working on this project exposed me to the intricacies of developing cutting-edge solutions in the financial technology sector. I had the opportunity to apply my skills and knowledge in building an application that leveraged artificial intelligence to streamline and enhance the management of B2B invoices. This experience equipped me with practical insights into the development lifecycle, collaboration with cross-functional teams, and the importance of aligning technology with business goals.<br>
+                I gained firsthand exposure to how a successful organization like Highradius functions, including its strategic decision-making processes, innovative approaches to problem-solving.<br>
+            </span>
+            <a href="https://github.com/dron7777/AI-Enabled-Fintech-B2B-Invoice-Management-Application"><button class="white" style="margin-top:25px ;">Visit Github</button></a>
+        </div>
+            </div>
+        </section>
+        <hr>
+        
+        <section class ="First">
+            <div class ="LeftSec">
+            <div><span style="color:orangered;">
+                QR Code Scanner
+            </span><br>
+            <span style="font-size:medium; display :flex">
+            
+The QR Code Scanner project, developed using Python and OpenCV, offers users the ability to scan both static images and live images captured through a camera. Leveraging the power of OpenCV, this project provides an efficient and accurate QR code recognition system.
+
+Through the intuitive user interface, users can easily upload static images or activate the camera to scan QR codes in real-time. The OpenCV library enables the project to extract, decode, and process the QR codes, allowing users to obtain the embedded information seamlessly.
+
+With its robust functionality and versatility, the QR Code Scanner project caters to a wide range of applications, including inventory management, ticketing systems, and contact information retrieval. The project showcases the capabilities of Python and OpenCV in image processing and pattern recognition, delivering a user-friendly solution for QR code scanning and decoding.  
+            </span>
+            <a href="https://github.com/dron7777/QR_Scanner_using_openCV"><button class="white" style="margin-top:25px ;">Visit Github</button></a>
+        </div>
+            </div>
+        </section>
+        <hr>
+    </main>
+    
+    <footer>
+        <div class="footer">
+            <div  class="text-center" style=" margin-left: 380px ;font-size: x-small; color: gray;">
+                Copyright &copy; Swagta's portforlia | All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphic Designer','Full Stack Developer','Game Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+ </body>
+</html>
